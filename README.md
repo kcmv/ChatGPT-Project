@@ -59,4 +59,13 @@ docker compose up --build
 
 ## Example request
 
-- `http://localhost:3000?query=What is your name?`
+`http://localhost:3000?query=Who is Hector?`
+
+Response:
+```json
+{
+    "channel": "request-channel:e08cbbb1-2408-4c01-90b1-b8cdd66350ae",
+    "query": "Who is Hector?",
+    "response": "Hector is a bee who is talking to another bee. He is trying to find out where the other bee is getting the sweet stuff from."
+}
+```
