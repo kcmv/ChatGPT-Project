@@ -48,6 +48,11 @@ npm run start
 cd custom-gpt-python
 python main.py
 ```
+- Install dependencies for frontend
+```bash
+cd frontend
+yarn install
+```
 
 ### Running in Docker
 
