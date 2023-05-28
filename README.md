@@ -57,9 +57,11 @@ cd chat-gpt-project
 docker compose up --build
 ```
 
-## Example request
+## Running the Frontend
+`http://localhost:3000`
 
-`http://localhost:3000?query=Who is Hector?`
+## Example request
+`http://localhost:3001?query=Who is Hector?`
 
 Response:
 ```json
